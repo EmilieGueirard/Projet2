@@ -22,22 +22,22 @@
             <div class="site-header--topbar">
                 <img class="site-header--topbar--logo" src="./images/logo/Booki.png" alt="Logo Booki">
                 <nav class="site-header--topbar--menu">
-                        <a class="site-header--topbar--menu--lodging" href="#">Hébergements</a>
-                        <a class="site-header--topbar--menu--activities" href="#">Activités</a>
+                        <a class="site-header--topbar--menu--link" href="#">Hébergements</a>
+                        <a class="site-header--topbar--menu--link" href="#">Activités</a>
                 </nav>
             </div>
 
             <!------------------------ Site Header - HERO ------------------------->
             <div class="site-header--hero">   
-            <h1 class="site-header--hero--title">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="site-header--hero--subtitle">En plein centre-ville ou en pleine nature</p>           
+                <h1 class="site-header--hero--title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="site-header--hero--subtitle">En plein centre-ville ou en pleine nature</p>           
             </div>
             
             <!--------------------- Site Header - SEARCH --------------------->
             <form class="site-header--search">
                 <i class="site-header--search--icon"></i>
-                <input type="text" class="site-header--search">
-                <input class="site-header--search-submit">
+                <input type="text" class="site-header--search--txt">
+                <input class="site-header--search--submit">
             </form>
             
             <!--------------------- Site Header - FILTERS --------------------->
@@ -45,27 +45,27 @@
                 <p class="site-header--filters--title">Filtres</p>
                 
                 <!--------------------- Site Header - Filters : ECONOMY --------------------->
-                <a class="site-header--filters--economy">
-                    <i class="site-header--filters--economy--icon"></i>
-                    <p class="site-header--filters--economy--title">Économique</p>
+                <a class="site-header--filters--cat">
+                    <i class="site-header--filters--icon"></i>
+                    <p class="site-header--filters--txt">Économique</p>
                 </a>
 
                 <!--------------------- Site Header - Filters : FAMILY --------------------->
-                <a class="site-header--filters--family">
-                    <i class="site-header--filters--family--icon"></i>
-                    <p class="site-header--filters--familly--title">Familial</p>
+                <a class="site-header--filters--cat">
+                    <i class="site-header--filters--icon"></i>
+                    <p class="site-header--filters--txt">Familial</p>
                 </a>
 
                 <!--------------------- Site Header - Filters : ROMANTIC --------------------->
-                <a class="site-header--filters--romantic">
-                    <i class="site-header--filters--romantic--icon"></i>
-                    <p class="site-header--filters--romantic--title">Romantique</p>
+                <a class="site-header--filters--cat">
+                    <i class="site-header--filters--icon"></i>
+                    <p class="site-header--filters--txt">Romantique</p>
                 </a>
 
                 <!--------------------- Site Header - Filters : BEST --------------------->
-                <a class="site-header--filters--best">
-                    <i class="site-header--filters--best--icon"></i>
-                    <p class="site-header--filters--best--title">Nos pépites</p>
+                <a class="site-header--filters--cat">
+                    <i class="site-header--filters--icon"></i>
+                    <p class="site-header--filters--txt">Nos pépites</p>
                 </a>
             </div>
         </header>
@@ -82,30 +82,30 @@
             <aside class="site-content--aside--popular">
 
                 <!-------------------- Site Content - Aside : HEADER -------------------->
-                <div class="site-content--aside--popular--header">
-                    <h2 class="section-title">Les plus populaires</h2>
+                <div class="site-content--aside--header">
+                    <h2 class="site-content-aside-title">Les plus populaires</h2>
                     <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                 </div>
                
                 <!-------------------- Site Content - Aside : POPULARS CARDS -------------------->
-                <div class="site-content--aside--populars-cards">
+                <div class="site-content--aside--populars">
                     
                     <!--------- Site Content - Aside - Populars Cards : CARD ONE --------->
-                    <a class="site-content--aside--populars-cards" href="#">
-                        <article class="site-content--aside--popular-cards--article">
+                    <a class="site-content--aside--link" href="#">
+                        <article class="site-content--aside--article">
 
                             <!-- Site Content - Aside - Populars Cards - Card one : IMAGE -->
-                            <img class="site-content--aside--popular-cards--img" src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <img class="site-content--aside--article--img" src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                            
                             <!-- Site Content - Aside - Populars Cards - Card one : CONTENT -->
-                            <div class="site-content--aside--populars-cards--content">
-                                <div class="site-content--aside--populars-cards--content--txt">
-                                    <h3 class="site-content--aside--populars-cards--content--title">Hôtel Le soleil du matin</h3>
-                                    <p class="site-content--aside--populars-cards--content--subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                            <div class="site-content--aside--artcile--content">
+                                <!-- Site Content - Aside - Populars Cards - Card one : TEXT -->
+                                <div class="site-content--aside--arcticle--txt">
+                                    <h3 class="site-content--aside--article--title">Hôtel Le soleil du matin</h3>
+                                    <p class="site-content--aside--artcile--subtitle">Nuit à partir de 128<span class="euro">€</span></p>
                                 </div>
-                                
-                                <!-- Site Content - Aside - Populars Cards - Card one - Content : RATING -->
-                                <div class="site-content--aside--populars-cards--content--rating">
+                                <!-- Site Content - Aside - Populars Cards - Card one : STARS ICONS-->
+                                <div class="site-content--aside--article--rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -118,21 +118,23 @@
                     </a>
                     
                     <!---------- Site Content - Aside - Populars Cards : CARD TWO ---------->
-                    <a class="site-content--aside--populars-cards" href="#">
-                        <article class="site-content--aside--populars-cards--article">
+                    <a class="site-content--aside--link" href="#">
+                        <article class="site-content--aside--article">
 
                             <!-- Site Content - Aside - Populars Cards - Card two : IMAGE -->
-                            <img class="site-content--aside--popular-cards--img" src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <img class="site-content--aside--img" src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                             
                             <!-- Site Content - Aside - Populars Cards - Card two : CONTENT -->
-                            <div class="site-content--aside--populars-cards--content">
-                                <div class="site-content--aside--populars-cards--content--txt">
-                                    <h3 class="site-content--aside--populars-cards--content--title">Chambres d’hôtes Au cœur de l’eau</h3>
-                                    <p class="site-content--aside--populars-cards--content--subtitle">Nuit à partir de 71<span class="euro">€</span></p>
+                            <div class="site-content--aside--article--content">
+
+                                <!-- Site Content - Aside - Populars Cards - Card two : TEXT -->
+                                <div class="site-content--aside--article--txt">
+                                    <h3 class="site-content--aside--article--title">Chambres d’hôtes Au cœur de l’eau</h3>
+                                    <p class="site-content--aside--article--subtitle">Nuit à partir de 71<span class="euro">€</span></p>
                                 </div>
                                 
-                                <!-- Site Content - Aside - Populars Cards - Card two - Content : RATING -->
-                                <div class="site-content--aside--populars-cards--content--rating">
+                                <!-- Site Content - Aside - Populars Cards - Card two : STARS ICONS -->
+                                <div class="site-content--aside--article--rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -145,21 +147,23 @@
                     </a>
                     
                     <!------------ Site Content - Aside - Populars Cards : CARD THREE ----------->
-                    <a class="site-content--aside--populars-cards" href="#">
-                        <article class="site-content--aside--populars-cards--article">
+                    <a class="site-content--aside--link" href="#">
+                        <article class="site-content--aside--article">
 
-                            <!-- Site Content - Aside - Populars Cards - Card two : IMAGE -->
-                            <img class="site-content--aside--popular-cards--img" src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <!-- Site Content - Aside - Populars Cards - Card three : IMAGE -->
+                            <img class="site-content--aside--article--img" src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                             
                             <!-- Site Content - Aside - Populars Cards - Card three : CONTENT -->
-                            <div class="site-content--aside--populars-cards--content">
-                                <div class="site-content--aside--populars-cards--content--txt">
-                                    <h3 class="site-content--aside--populars-cards--content--title">Hôtel Bleu et Blanc</h3>
-                                    <p class="site-content--aside--populars-cards--content--subtitle">Nuit à partir de 68<span class="euro">€</span></p>
+                            <div class="site-content--aside--article--content">
+
+                                <!-- Site Content - Aside - Populars Cards - Card three : TEXT -->
+                                <div class="site-content--aside--article--txt">
+                                    <h3 class="site-content--aside--article--title">Hôtel Bleu et Blanc</h3>
+                                    <p class="site-content--aside--article--subtitle">Nuit à partir de 68<span class="euro">€</span></p>
                                 </div>
                                 
-                                <!-- Site Content - Aside - Populars Cards - Card three - Content : RATING -->
-                                <div class="site-content--aside--populars-cards--content--rating">
+                                <!-- Site Content - Aside - Populars Cards - Card three : STARS ICONS -->
+                                <div class="site-content--aside--article--rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -176,7 +180,41 @@
 
         <!-------------------- Site Content - ACTIVITIES -------------------->
         <section class="site-content--activities">
+            <div class="site-content--activities--title">
+                <h2 class="site-content--activities--title">Activité à Marseille</h2>          
+            </div>
 
+            <!----------- Site Content - Activities : ARTICLE ONE ----------->
+            <article class="site-content--activities--article">
+                <div class="site-content--activities--card">
+                    <img class="site-content--activities--card--title" src="./images/activites/reno-laithienne.jpg" alt="Imade du Vieux-Port montrant des bateaux et des bâtiments">
+                    <h4 class="site-content--activities--card--title">Vieux-Port</h4>
+                </div>
+            </article>
+
+            <!----------- Site Content - Activities : ARTICLE TWO ----------->
+            <article class="site-content--activities--article">
+                <div class="site-content--activities--card">
+                    <img class="site-content--activities--card--title" src="./images/activites/paul-hermann.jpg" alt="Image montrant le Fort de Pomègues">
+                    <h4 class="site-content--activities--card--title">Fort de Pomègues</h4>
+                </div>
+            </article>
+
+            <!----------- Site Content - Activities : ARTICLE THREE ----------->
+            <article class="site-content--activities--article">
+                <div class="site-content--activities--card">
+                    <img class="site-content--activities--card--title" src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques montrant une vue des falaises et de la mer">
+                    <h4 class="site-content--activities--card--title">Parc national des Calanques</h4>
+                </div>
+            </article>
+
+            <!----------- Site Content - Activities : ARTICLE FOUR ----------->
+            <article class="site-content--activities--article">
+                <div class="site-content--activities--card">
+                    <img class="site-content--activities--card--title" src="./images/activites/florian-wehde.jpg" alt="Image montrant le paysage autour de Notre-Dame-de-la-Garde">
+                    <h4 class="site-content--activities--card--title">Notre-Dame-de-la-Garde</h4>
+                </div>
+            </article>
         </section>
 
         <!------------------------------- Site Footer ------------------------------>
