@@ -12,401 +12,226 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="icon" type="image/svg+xml" href="./images/logo/Booki.svg">
 </head>
 
 <body>
-        <header class="site-header">
+    <header class="site-header">
          
-            <!--------------------- Site Header - TOPBAR / MENU -------------------->
-            <div class="site-header--topbar">
-                <img class="site-header--topbar--logo" src="./images/logo/Booki.png" alt="Logo Booki">
-                <nav class="site-header--topbar--menu">
-                        <a class="site-header--topbar--menu--item" href="#">Hébergements</a>
-                        <a class="site-header--topbar--menu--item" href="#">Activités</a>
-                </nav>
-            </div>
-
-            <!------------------------ Site Header - HERO ------------------------->
-            <div class="site-header--hero">   
-                <h1 class="site-header--hero--title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p class="site-header--hero--subtitle">En plein centre-ville ou en pleine nature</p>           
-            </div>
-            
-            <!--------------------- Site Header - SEARCH --------------------->
-            <form class="site-header--search">
-                <i class="site-header--search--icon"></i>
-                <input type="text" class="site-header--search--txt">
-                <input class="site-header--search--submit">
-            </form>
-            
-            <!--------------------- Site Header - FILTERS --------------------->
-            <div class="site-header--filters">
-                <p class="site-header--filters--title">Filtres</p>
-                
-                <!--------------------- Site Header - Filters : ECONOMY --------------------->
-                <a class="site-header--filters--cat">
-                    <i class="site-header--filters--icon"></i>
-                    <p class="site-header--filters--txt">Économique</p>
-                </a>
-
-                <!--------------------- Site Header - Filters : FAMILY --------------------->
-                <a class="site-header--filters--cat">
-                    <i class="site-header--filters--icon"></i>
-                    <p class="site-header--filters--txt">Familial</p>
-                </a>
-
-                <!--------------------- Site Header - Filters : ROMANTIC --------------------->
-                <a class="site-header--filters--cat">
-                    <i class="site-header--filters--icon"></i>
-                    <p class="site-header--filters--txt">Romantique</p>
-                </a>
-
-                <!--------------------- Site Header - Filters : BEST --------------------->
-                <a class="site-header--filters--cat">
-                    <i class="site-header--filters--icon"></i>
-                    <p class="site-header--filters--txt">Nos pépites</p>
-                </a>
-            </div>
-        </header>
-
-        <!---------------------- Site Content ---------------------->
-        <div class="site-content">
-
-            <!-------------------- Site Content - MAIN -------------------->
-            <main class="site-content-main">
-
-                <!-------------------- Site Content - Main : RESULT -------------------->
-                <div class="site-content-main-result">
-                    <i class="site-content-main--result--icon"></i>
-                    <p class="site-content-main-result--txt">Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
-
-                <!-------------------- Site Content - Main : LODGING -------------------->
-                <div class="site-content-main--lodging">
-
-                    <!-------------------- Site Content - Main - Lodging : HEADER -------------------->
-                    <div class="site-content-main--lodging--header">
-                        <h2 class="site-content-main--lodging--header--title">Hébergements à Marseille</h2>
-                    </div>
-
-                    <!-------------------- Site Content - Main - Lodging : CONTENT -------------------->
-                    <div class="site-content-main--lodging--content">
-                        
-                        <!-------------------- Site Content - Main - Lodging - Content : CARDS ONE -------------------->
-                        <a class="site-content-main--link" href="#">
-                            <article class="site-content-main--article">
-    
-                                <!-- Site Content - Lodging - Content - Card one : IMAGE -->
-                                <img class="site-content-main--article--img" src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant deux lits simples">
-                               
-                                <!-- Site Content - Lodging - Content - Card one : CONTENT -->
-                                <div class="site-content-main--artcile--content">
-                                    <!-- Site Content - Lodging - Content - Card one : TEXT -->
-                                    <div class="site-content-main--arcticle--txt">
-                                        <h4 class="site-content-main--article--title">Hôtel du port</h4>
-                                        <p class="site-content-main--artcile--subtitle">Nuit à partir de 52<span class="euro">€</span></p>
-                                    </div>
-                                    <!-- Site Content - Lodging - Content - Card one : STARS ICONS-->
-                                    <div class="site-content-aside--article--rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-                    
-                        <!-------------------- Site Content - Main - Lodging - Content : CARDS TWO -------------------->
-                        <a class="site-content-main--link" href="#">
-                            <article class="site-content-main--article">
-    
-                                <!-- Site Content - Lodging - Content - Card one : IMAGE -->
-                                <img class="site-content-main--article--img" src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant deux lits">
-                               
-                                <!-- Site Content - Lodging - Content - Card one : CONTENT -->
-                                <div class="site-content-main--artcile--content">
-                                    <!-- Site Content - Lodging - Content - Card one : TEXT -->
-                                    <div class="site-content-main--arcticle--txt">
-                                        <h4 class="site-content-main--article--title">Hôtel Chez Amina</h4>
-                                        <p class="site-content-main--artcile--subtitle">Nuit à partir de 96<span class="euro">€</span></p>
-                                    </div>
-                                    <!-- Site Content - Lodging - Content - Card one : STARS ICONS-->
-                                    <div class="site-content-aside--article--rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-
-                        <!-------------------- Site Content - Main - Lodging - Content : CARDS THREE -------------------->
-                        <a class="site-content-main--link" href="#">
-                            <article class="site-content-main--article">
-    
-                                <!-- Site Content - Lodging - Content - Card one : IMAGE -->
-                                <img class="site-content-main--article--img" src="./images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                               
-                                <!-- Site Content - Lodging - Content - Card one : CONTENT -->
-                                <div class="site-content-main--artcile--content">
-                                    <!-- Site Content - Lodging - Content - Card one : TEXT -->
-                                    <div class="site-content-main--arcticle--txt">
-                                        <h4 class="site-content-main--article--title">Hôtel Les mouettes</h4>
-                                        <p class="site-content-main--artcile--subtitle">Nuit à partir de 76<span class="euro">€</span></p>
-                                    </div>
-                                    <!-- Site Content - Lodging - Content - Card one : STARS ICONS-->
-                                    <div class="site-content-aside--article--rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-
-                        <!-------------------- Site Content - Main - Lodging - Content : CARDS FOUR -------------------->
-                        <a class="site-content-main--link" href="#">
-                            <article class="site-content-main--article">
-    
-                                <!-- Site Content - Lodging - Content - Card one : IMAGE -->
-                                <img class="site-content-main--article--img" src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                               
-                                <!-- Site Content - Lodging - Content - Card one : CONTENT -->
-                                <div class="site-content-main--artcile--content">
-                                    <!-- Site Content - Lodging - Content - Card one : TEXT -->
-                                    <div class="site-content-main--arcticle--txt">
-                                        <h4 class="site-content-main--article--title">Hôtel de la mer</h4>
-                                        <p class="site-content-main--artcile--subtitle">Nuit à partir de 46<span class="euro">€</span></p>
-                                    </div>
-                                    <!-- Site Content - Lodging - Content - Card one : STARS ICONS-->
-                                    <div class="site-content-aside--article--rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-
-                        <!-------------------- Site Content - Main - Lodging - Content : CARDS FIVE -------------------->
-                        <a class="site-content-main--link" href="#">
-                            <article class="site-content-main--article">
-    
-                                <!-- Site Content - Lodging - Content - Card one : IMAGE -->
-                                <img class="site-content-main--article--img" src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre de l'auberge montrant des lits superposés">
-                               
-                                <!-- Site Content - Lodging - Content - Card one : CONTENT -->
-                                <div class="site-content-main--artcile--content">
-                                    <!-- Site Content - Lodging - Content - Card one : TEXT -->
-                                    <div class="site-content-main--arcticle--txt">
-                                        <h4 class="site-content-main--article--title">Auberge de La Canebière</h4>
-                                        <p class="site-content-main--artcile--subtitle">Nuit à partir de 25<span class="euro">€</span></p>
-                                    </div>
-                                    <!-- Site Content - Lodging - Content - Card one : STARS ICONS-->
-                                    <div class="site-content-aside--article--rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-
-                        <!-------------------- Site Content - Main - Lodging - Content : CARDS SIX -------------------->
-                        <a class="site-content-main--link" href="#">
-                            <article class="site-content-main--article">
-    
-                                <!-- Site Content - Lodging - Content - Card one : IMAGE -->
-                                <img class="site-content-main--article--img" src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre de l'auberge montrant des lits superposés">
-                               
-                                <!-- Site Content - Lodging - Content - Card one : CONTENT -->
-                                <div class="site-content-main--artcile--content">
-                                    <!-- Site Content - Lodging - Content - Card one : TEXT -->
-                                    <div class="site-content-main--arcticle--txt">
-                                        <h4 class="site-content-main--article--title">Auberge Le Panier</h4>
-                                        <p class="site-content-main--artcile--subtitle">Nuit à partir de 23<span class="euro">€</span></p>
-                                    </div>
-                                    <!-- Site Content - Lodging - Content - Card one : STARS ICONS-->
-                                    <div class="site-content-aside--article--rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </a>
-                    </div>
-                    
-                    <!-------------------- Site Content - Main - Lodging : FOOTER -------------------->
-                    <div class="site-content-main--lodging--footer">
-                        <h3 class="site-content-main--lodging--footer--title">Afficher plus</h3>
-                    </div>
-                </div>
-            </main>
-            
-             <!-------------------- Site Content - ASIDE -------------------->
-            <aside class="site-content-aside">
-
-                <!-------------------- Site Content - Aside : HEADER -------------------->
-                <div class="site-content-aside--header">
-                    <h2 class="site-content-aside--header--title">Les plus populaires</h2>
-                    <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
-                </div>
-               
-                <!-------------------- Site Content - Aside : POPULARS CARDS -------------------->
-                <div class="site-content-aside--cards">
-                    
-                    <!--------- Site Content - Aside - Populars Cards : CARD ONE --------->
-                    <a class="site-content-aside--link" href="#">
-                        <article class="site-content-aside--article">
-
-                            <!-- Site Content - Aside - Populars Cards - Card one : IMAGE -->
-                            <img class="site-content-aside--article--img" src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                           
-                            <!-- Site Content - Aside - Populars Cards - Card one : CONTENT -->
-                            <div class="site-content-aside--artcile--content">
-                                <!-- Site Content - Aside - Populars Cards - Card one : TEXT -->
-                                <div class="site-content-aside--arcticle--txt">
-                                    <h4 class="site-content-aside--article--title">Hôtel Le soleil du matin</h4>
-                                    <p class="site-content-aside--artcile--subtitle">Nuit à partir de 128<span class="euro">€</span></p>
-                                </div>
-                                <!-- Site Content - Aside - Populars Cards - Card one : STARS ICONS-->
-                                <div class="site-content-aside--article--rating">
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                    <span class="sr-only">Note de 4 sur 5</span>
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    
-                    <!---------- Site Content - Aside - Populars Cards : CARD TWO ---------->
-                    <a class="site-content-aside--link" href="#">
-                        <article class="site-content-aside--article">
-
-                            <!-- Site Content - Aside - Populars Cards - Card two : IMAGE -->
-                            <img class="site-content-aside--img" src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            
-                            <!-- Site Content - Aside - Populars Cards - Card two : CONTENT -->
-                            <div class="site-content-aside--article--content">
-
-                                <!-- Site Content - Aside - Populars Cards - Card two : TEXT -->
-                                <div class="site-content-aside--article--txt">
-                                    <h4 class="site-content-aside--article--title">Chambres d’hôtes Au cœur de l’eau</h4>
-                                    <p class="site-content-aside--article--subtitle">Nuit à partir de 71<span class="euro">€</span></p>
-                                </div>
-                                
-                                <!-- Site Content - Aside - Populars Cards - Card two : STARS ICONS -->
-                                <div class="site-content-aside--article--rating">
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                    <span class="sr-only">Note de 4 sur 5</span>
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    
-                    <!------------ Site Content - Aside - Populars Cards : CARD THREE ----------->
-                    <a class="site-content-aside--link" href="#">
-                        <article class="site-content-aside--article">
-
-                            <!-- Site Content - Aside - Populars Cards - Card three : IMAGE -->
-                            <img class="site-content-aside--article--img" src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            
-                            <!-- Site Content - Aside - Populars Cards - Card three : CONTENT -->
-                            <div class="site-content-aside--article--content">
-
-                                <!-- Site Content - Aside - Populars Cards - Card three : TEXT -->
-                                <div class="site-content-aside--article--txt">
-                                    <h4 class="site-content-aside--article--title">Hôtel Bleu et Blanc</h4>
-                                    <p class="site-content-aside--article--subtitle">Nuit à partir de 68<span class="euro">€</span></p>
-                                </div>
-                                
-                                <!-- Site Content - Aside - Populars Cards - Card three : STARS ICONS -->
-                                <div class="site-content-aside--article--rating">
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                    <span class="sr-only">Note de 4 sur 5</span>
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                </div>
-            </aside>
+        <!--------------------- Site Header - TOPBAR / MENU -------------------->
+        <div class="site-header--topbar">
+            <img class="site-header--topbar--logo" src="./images/logo/Booki.png" alt="Logo Booki">
+            <nav class="site-header--topbar--menu">
+                    <a class="site-header--topbar--menu--item" href="#">Hébergements</a>
+                    <a class="site-header--topbar--menu--item" href="#">Activités</a>
+            </nav>
         </div>
+
+        <!------------------------ Site Header - HERO ------------------------->
+        <div class="site-header--hero">   
+            <h1 class="site-header--hero--title">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="site-header--hero--subtitle">En plein centre-ville ou en pleine nature</p>           
+        </div>
+        
+        <!--------------------- Site Header - SEARCH --------------------->
+        <form class="site-header--search">
+            <i class="site-header--search--icon"></i>
+            <input type="text" class="site-header--search--txt">
+            <input class="site-header--search--submit">
+        </form>
+        
+        <!--------------------- Site Header - FILTERS --------------------->
+        <div class="site-header--filters">
+            <p class="site-header--filters--title">Filtres</p>
+           
+
+            
+            <!--------------------- Site Header - Filters : ECONOMY --------------------->
+            <a class="site-header--filters--link">
+                <i class="site-header--filters--icon"></i>
+                <p class="site-header--filters--txt">Économique</p>
+            </a>
+
+            <!--------------------- Site Header - Filters : FAMILY --------------------->
+            <a class="site-header--filters--link">
+                <i class="site-header--filters--icon"></i>
+                <p class="site-header--filters--txt">Familial</p>
+            </a>
+
+            <!--------------------- Site Header - Filters : ROMANTIC --------------------->
+            <a class="site-header--filters--link">
+                <i class="site-header--filters--icon"></i>
+                <p class="site-header--filters--txt">Romantique</p>
+            </a>
+
+            <!--------------------- Site Header - Filters : BEST --------------------->
+            <a class="site-header--filters--link">
+                <i class="site-header--filters--icon"></i>
+                <p class="site-header--filters--txt">Nos pépites</p>
+            </a>
+        </div>
+  
+    </header>
+
+
+
+        
+
+<!---------------------- Site Content ---------------------->
+            <section class="site-content">
+
+                <!-------------------- Site Content - MAIN -------------------->
+                <main class="site-content-main">
+
+                </main>
+
+                <!-------------------- Site Content - ASIDE -------------------->
+                <aside class="site-content-aside">
+
+                    <!-------------------- Site Content - Aside : HEADER -------------------->
+                    <div class="site-content-aside--header">
+                        <h1 class="site-content-aside--header--title">Les plus populaires</h1>
+                        <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                    </div>
+
+                    <!-------------------- Site Content - Aside : POPULARS CARDS -------------------->
+                    <div class="site-content-aside--cards">
+                        
+                        <!--------- Site Content - Aside - Populars Cards : CARD ONE --------->
+                        <a class="site-content-aside--article--link" href="#">
+                            <article class="site-content-aside--article">
+                                
+                                <!-- Site Content - Aside - Populars Cards - Card one : IMAGE -->
+                                <img class="site-content-aside--article--img"  src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                
+                                <!-- Site Content - Aside - Populars Cards - Card one : CONTENT -->
+                                <div class="site-content-aside--article--content">
+                                    
+                                    <!-- Site Content - Aside - Populars Cards - Card one : TEXT -->
+                                    <div class="site-content-aside--article--txt">
+                                        <h3 class="site-content-aside--article--title">Hôtel Le soleil du matin</h3>
+                                        <p class="site-content-aside--article--subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                    </div>
+
+                                    <!-- Site Content - Aside - Populars Cards - Card one : STARS ICONS-->
+                                    <div class="site-content-aside--article--rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <!---------- Site Content - Aside - Populars Cards : CARD TWO ---------->
+                        <a class="site-content-aside--article--link" href="#">
+                            <article class="site-content-aside--article">
+                                
+                                <!-- Site Content - Aside - Populars Cards - Card two : IMAGE -->
+                                <img class="site-content-aside--article--img" src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                
+                                <!-- Site Content - Aside - Populars Cards - Card two : CONTENT -->
+                                <div class="site-content-aside--article--content">
+                                    
+                                    <!-- Site Content - Aside - Populars Cards - Card two : TEXT -->
+                                    <div class="site-content-aside--article--txt">
+                                        <h3 class="site-content-aside--article--title">Chambres d’hôtes Au cœur de l’eau</h3>
+                                        <p class="site-content-aside--article--subtitle">Nuit à partir de 71<span class="euro">€</span></p>
+                                    </div>
+
+                                    <!-- Site Content - Aside - Populars Cards - Card two : STARS ICONS -->
+                                    <div class="site-content-aside--article--rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <!------------ Site Content - Aside - Populars Cards : CARD THREE ----------->
+                        <a class="site-content-aside--article--link" href="#">
+                            <article class="site-content-aside--article">
+
+                                <!-- Site Content - Aside - Populars Cards - Card three : IMAGE -->
+                                <img class="site-content-aside--article--img" src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                
+                                <!-- Site Content - Aside - Populars Cards - Card three : CONTENT -->
+                                <div class="site-content-aside--article--content">
+                                    
+                                    <!-- Site Content - Aside - Populars Cards - Card three : TEXT -->
+                                    <div class="site-content-aside--article--txt">
+                                        <h3 class="site-content-aside--article--title">Hôtel Bleu et Blanc</h3>
+                                        <p class="site-content-aside--article--subtitle">Nuit à partir de 68<span class="euro">€</span></p>
+                                    </div>
+
+                                    <!-- Site Content - Aside - Populars Cards - Card three : STARS ICONS -->
+                                    <div class="site-content-aside--article--rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </aside>
+            </section>
+
         <!-------------------- Site Content - ACTIVITIES -------------------->
         <section class="site-content-activities">
-            <div class="site-content-activities--title">
-                <h2 class="site-content-activities--title">Activité à Marseille</h2>          
-            </div>
-
-            <!----------- Site Content - Activities : ARTICLE ONE ----------->
-            <article class="site-content-activities--article">
-                <div class="site-content-activities--card">
-                    <img class="site-content-activities--card--title" src="./images/activites/reno-laithienne.jpg" alt="Imade du Vieux-Port montrant des bateaux et des bâtiments">
-                    <h4 class="site-content-activities--card--title">Vieux-Port</h4>
-                </div>
-            </article>
-
-            <!----------- Site Content - Activities : ARTICLE TWO ----------->
-            <article class="site-content-activities--article">
-                <div class="site-content-activities--card">
-                    <img class="site-content-activities--card--title" src="./images/activites/paul-hermann.jpg" alt="Image montrant le Fort de Pomègues">
-                    <h4 class="site-content-activities--card--title">Fort de Pomègues</h4>
-                </div>
-            </article>
-
-            <!----------- Site Content - Activities : ARTICLE THREE ----------->
-            <article class="site-content-activities--article">
-                <div class="site-content-activities--card">
-                    <img class="site-content-activities--card--title" src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques montrant une vue des falaises et de la mer">
-                    <h4 class="site-content-activities--card--title">Parc national des Calanques</h4>
-                </div>
-            </article>
-
-            <!----------- Site Content - Activities : ARTICLE FOUR ----------->
-            <article class="site-content-activities--article">
-                <div class="site-content-activities--card">
-                    <img class="site-content-activities--card--title" src="./images/activites/florian-wehde.jpg" alt="Image montrant le paysage autour de Notre-Dame-de-la-Garde">
-                    <h4 class="site-content-activities--card--title">Notre-Dame-de-la-Garde</h4>
-                </div>
-            </article>
-        </section>
-        
-        <!------------------------------- Site Footer ------------------------------>
-        <footer class="site-footer">
+            <h1 class="site-content-activities--title">Activité à Marseille</h1>
+            <div class="site-content-activities--card">          
             
+                <!----------- Site Content - Activities : ARTICLE ONE ----------->
+                <a class="site-content-activities--article--link" href="#">
+                    <article class="site-content-activities--article">
+                            <img class="site-content-activities--img" src="./images/activites/reno-laithienne.jpg" alt="Imade du Vieux-Port montrant des bateaux et des bâtiments">
+                            <h3 class="site-content-activities--card--title">Vieux-Port</h3>
+                    </article>
+                </a>
+
+                <!----------- Site Content - Activities : ARTICLE TWO ----------->
+                <a class="site-content-activities--article--link" href="#">
+                    <article class="site-content-activities--article">
+                            <img class="site-content-activities--img" src="./images/activites/paul-hermann.jpg" alt="Image montrant le Fort de Pomègues">
+                            <h3 class="site-content-activities--card--title">Fort de Pomègues</h3>
+                    </article>
+                </a>
+
+                <!----------- Site Content - Activities : ARTICLE THREE ----------->
+                <a class="site-content-activities--article--link" href="#">
+                    <article class="site-content-activities--article">          
+                            <img class="site-content-activities--img" src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques montrant une vue des falaises et de la mer">
+                            <h3 class="site-content-activities--card--title">Parc national des Calanques</h3>      
+                    </article>
+                </a>
+                
+                <!----------- Site Content - Activities : ARTICLE FOUR ----------->
+                <a class="site-content-activities--article--link" href="#">
+                    <article class="site-content-activities--article">
+                            <img class="site-content-activities--img" src="./images/activites/florian-wehde.jpg" alt="Image montrant le paysage autour de Notre-Dame-de-la-Garde">
+                            <h3 class="site-content-activities--card--title">Notre-Dame-de-la-Garde</h3>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+
+ <!------------------------------- Site Footer ------------------------------>
+        <footer class="site-footer">
+                    
             <!------------- Site Footer - ABOUT ------------->
             <div class="site-footer--cat">
-                <h3 class="site-footer--title">À propos</h3>
+                <h2 class="site-footer--title">À propos</h2>
                 <a class="site-footer--link" href="#">Fonctionnement du site</a>
                 <a class="site-footer--link" href="#">Conditions générales</a>
                 <a class="site-footer--link" href="#">Données et confidentialité<a>
@@ -414,18 +239,17 @@
 
             <!------------- Site Footer - LODGING ------------->
             <div class="site-footer--cat">
-                <h3 class="site-footer--title" href="#" >Nos hébergements</h3>
+                <h2 class="site-footer--title" href="#" >Nos hébergements</h2>
                 <a class="site-footer--link" href="#" >Charte de qualité</a>
                 <a class="site-footer--link" href="#" >Proposer votre hôtel</a>
             </div>
 
             <!------------- Site Footer - HELP ------------->
             <div class="site-footer--cat">
-                <h3 class="site-footer--title" href="#" >Assistance</h3>
+                <h2 class="site-footer--title" href="#" >Assistance</h2>
                 <a class="site-footer--link" href="#" >Centre d'aide</a>
                 <a class="site-footer--link" href="#" >Nous contacter</a>
             </div>
-        </footer>
-        
+        </footer>    
     </body>
 </html>
