@@ -406,6 +406,14 @@ h3 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
+    }
+    .site-content-aside--content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: border-box;
+        gap: 20px;
     }
 
     .site-content-aside--article--link {
@@ -465,12 +473,29 @@ body {
     border-top: none; 
     border-bottom-color: var(--main-color);
 }
-/********* Site Content ACTIVITIES ***********/
+/********* Site Content MAIN ***********/
 .site-content {
-    
+   
 }
 
-.site-content-main {
+.site-content-main-result {
+
+}
+
+.site-content-main--lodging {
+    background-color: white;
+}
+.site-content-main--content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.site-content-aside {
+    border-radius: 0;
+}
+
+.site-content-aside--content {
+    flex-direction: column;
 }
 
 /********* Site Content ACTIVITIES ***********/
@@ -480,6 +505,9 @@ body {
 }
 .site-content-activities--title {
     margin: 0
+}
+.site-content-activities--img {
+    height: 141px;
 }
 .site-content-activities--content{
     display: flex;
