@@ -63,9 +63,6 @@ h3 {
 
 
 /****** TopBar / Menu ***********/
-
-
-
 .site-header--topbar {
     display: flex;
     justify-content: space-between;
@@ -101,12 +98,13 @@ h3 {
 
 /****** Hero ***********/
 .site-header--hero {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 35px;
-    gap: 35px;
+    gap: 8px;
 }
     
 .site-header--hero--title {
-    gap: 5px;
     font-size: var(--header-font-size);
     font-weight: var(--header-font-weight);
     margin: 0;
@@ -173,15 +171,18 @@ h3 {
     font-weight: 700;
 }
 
-
-
 .site-header--search--buttonGlass {
     display: none;
 }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-clear-button {
+ display: none;
+}
+
 /****** Filters ***********/
 .site-header--filters {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 15px;
     margin: 35px 0;
@@ -197,6 +198,13 @@ h3 {
     font-size: var(--filter-font-size);
     font-weight: var(--filter-font-weight);
     margin: 0;
+}
+
+.site-header--filters--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .site-header--filters--link {
@@ -217,10 +225,6 @@ h3 {
     font-size: 22px;
 }
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-clear-button {
- display: none;
-}
 
 /****** Site Content ***********/
 .site-content {
@@ -238,6 +242,8 @@ input[type="search"]::-webkit-search-clear-button {
 }
 
 .site-content-main-result--txt {
+    display: flex;
+    align-items: center;
     font-size: var(--body-font-size);
     font-weight: var(--body-font-weight);
     margin: 0;
@@ -317,7 +323,7 @@ input[type="search"]::-webkit-search-clear-button {
 
 .site-content-aside {
     width: 32%;
-    margin-top: 94px;
+    margin-top: 59px;
 }
 
 .site-content-aside--header {
@@ -407,7 +413,6 @@ input[type="search"]::-webkit-search-clear-button {
 .site-content-activities--cards {
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     border-radius: 20px;
-
 }
 
 .site-content-activities--img {
@@ -521,7 +526,6 @@ body {
     flex-direction: column;
     align-items: center;
     height: auto;
-     
 } 
 .site-header--topbar--logo {
     margin: 30px;
@@ -531,8 +535,7 @@ body {
     height: auto;
     padding: 0;
     gap: 0;
-    box-sizing: border-box;
-       
+    box-sizing: border-box;    
 }
  .site-header--topbar--menu--item {
     justify-content: center;
@@ -546,20 +549,56 @@ body {
     border-top: none; 
     border-bottom-color: var(--main-color);
 }
-/********* Site Content MAIN ***********/
-.site-content {
-   
+.site-header--hero, .site-header--search, .site-header--filters  {
+    padding: 0 20px;
 }
 
+/********* Site HEADER - SEARCH ***********/
+.site-header--search--buttonTxt {
+    display: none;
+}
+
+.site-header--search--buttonGlass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    border: solid 1px var(--main-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    position: absolute;
+    right: 20px;
+    padding: 0;
+    width: 49px;
+    height: 49px;
+    color: white;
+}
+
+/********* Site HEADER - FILTERS ***********/
+.site-header--filters {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-header--filters--content {
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 120px;
+}
+
+/********* Site Content MAIN ***********/
+.site-content-main {
+    margin: 0;
+}
 .site-content-main-result {
     width: 100%;
-    order: 0;
+    margin: 0 20px;
 }
-
 .site-content-main--lodging {
     background-color: white;
     width: 100%;
-    order: 3;
 }
 .site-content-main--content {
     display: flex;
@@ -568,12 +607,8 @@ body {
 }
 .site-content-aside {
     border-radius: 0;
-    order: -1;
-    width: 100%;
+    width: 100%; 
 }
-
-
-
 .site-content-aside--content {
     flex-direction: column;
 }
@@ -583,7 +618,7 @@ body {
 
 /********* Site Content ACTIVITIES ***********/
 .site-content-activities {
-    margin: 0;
+    margin: 35px 0 0 0;
     padding: 30px;
 }
 .site-content-activities--title {
