@@ -16,7 +16,7 @@
 
 <body>
     <header class="site-header">
-         
+    
         <!--------------------- Site Header - TOPBAR / MENU -------------------->
         <div class="site-header--topbar">
             <img class="site-header--topbar--logo" src="./images/logo/Booki.png" alt="Logo Booki">
@@ -32,8 +32,44 @@
             <p class="site-header--hero--subtitle">En plein centre-ville ou en pleine nature</p>           
         </div>
  
-        
+        <!--------------------- Site Header - SEARCH --------------------->
+        <form class="site-header--search" id="formSearch" action="" method="get">
+            <label>
+                <i class="search-icon fa-solid fa-location-dot"></i>
+            </label>
+            <input type="search" class="site-header--search--txt" name="formSearch" placeholder="Marseille, France">
+            <button form="formSearch" class="site-header--search--buttonTxt">Rechercher</button>
+            <button form="formSearch" class="site-header--search--buttonGlass"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
 
+        <!--------------------- Site Header - FILTERS --------------------->
+        <div class="site-header--filters">
+            <h2 class="site-header--filters--title">Filtres</h2>
+        
+        <!--------------------- Site Header - Filters : ECONOMY --------------------->
+        <a class="site-header--filters--link">
+            <i class="fa-solid fa-money-bill-wave icon-blue"></i>
+            <p class="site-header--filters--txt">Économique</p>
+        </a>
+
+        <!--------------------- Site Header - Filters : FAMILY --------------------->
+        <a class="site-header--filters--link">
+            <i class="fa-solid fa-person icon-blue"></i>
+            <p class="site-header--filters--txt">Familial</p>
+        </a>
+
+            <!--------------------- Site Header - Filters : ROMANTIC --------------------->
+        <a class="site-header--filters--link">
+            <i class="fa-solid fa-heart icon-blue"></i>
+            <p class="site-header--filters--txt">Romantique</p>
+        </a>
+
+        <!--------------------- Site Header - Filters : BEST --------------------->
+        <a class="site-header--filters--link">
+            <i class="fa-solid fa-fire icon-blue"></i>
+            <p class="site-header--filters--txt">Nos pépites</p>
+        </a>
+    </header>
 
   <!---------------------- Site Content ---------------------->
   <section class="site-content">
@@ -43,7 +79,7 @@
 
              <!-------------------- Site Content - Main : RESULT -------------------->
     <div class="site-content-main-result">
-        <i class="site-content-main--result--icon"></i>
+        <img class="icon-info" src="./images/icon-info.svg" alt="Icône d'information">
         <p class="site-content-main-result--txt">Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
 
@@ -75,10 +111,10 @@
                         </div>
                         <!-- Site Content - Lodging - Content - Card 1 : STARS ICONS-->
                         <div class="site-content-main--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -101,10 +137,10 @@
                         </div>
                         <!-- Site Content - Lodging - Content - Card 2 : STARS ICONS-->
                         <div class="site-content-main--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -128,10 +164,10 @@
                         </div>
                         <!-- Site Content - Lodging - Content - Card 3 : STARS ICONS-->
                         <div class="site-content-main--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -155,10 +191,10 @@
                         </div>
                         <!-- Site Content - Lodging - Content - Card 4 : STARS ICONS-->
                         <div class="site-content-main--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -182,10 +218,10 @@
                         </div>
                         <!-- Site Content - Lodging - Content - Card 5 : STARS ICONS-->
                         <div class="site-content-main--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -209,10 +245,10 @@
                         </div>
                         <!-- Site Content - Lodging - Content - Card 6 : STARS ICONS-->
                         <div class="site-content-main--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -262,10 +298,10 @@
 
                         <!-- Site Content - Aside - Populars Cards - Card one : STARS ICONS-->
                         <div class="site-content-aside--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -291,10 +327,10 @@
 
                         <!-- Site Content - Aside - Populars Cards - Card two : STARS ICONS -->
                         <div class="site-content-aside--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
@@ -320,10 +356,10 @@
 
                         <!-- Site Content - Aside - Populars Cards - Card three : STARS ICONS -->
                         <div class="site-content-aside--cards--rating">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star icon-blue" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
