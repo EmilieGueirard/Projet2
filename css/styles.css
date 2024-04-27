@@ -246,12 +246,6 @@ h4 {
     font-size: 22px;
 }
 
-.item1, .item2, .item3, .item4 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-
 /*************************** MAIN *************************/
 
 .site-main {
@@ -312,13 +306,13 @@ h4 {
 .item-l1, .item-l2, .item-l3, .item-l4, .item-l5, .item-l6 {
     flex-grow: 1;
     width: 25%;
-    height: 207px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    min-height: 207px;
+    max-height: 230px;
     background-color: var(--white-color);
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
+
 
 .site-main-content-lodging--cards--img {
     width: 100%;
@@ -480,7 +474,13 @@ h4 {
         width: 90%;
     }
 
-
+    .item1, .item2, .item3, .item4 {
+        overflow: hidden;
+        flex-shrink: 1;
+        justify-content: center;
+        white-space: nowrap;
+    }
+    
     /**************** Site MAIN - HEADER ***************/
     .site-main-header-result {
         width: 100%;
@@ -597,6 +597,10 @@ h4 {
         justify-content: center;
     }
     
+    .site-header-search--txt{
+        padding-left: 0.63rem;
+    }
+
     .site-header-search--buttonTxt {
         display: none;
     }
@@ -634,10 +638,11 @@ h4 {
     }
     
     .item1, .item2, .item3, .item4 {
+        justify-content: flex-start;
         flex-grow: 1;
         width: 30%;
-        
     }
+
     .site-header-filters--txt {
         font-size: var(--card-font-size);
     }
@@ -744,5 +749,14 @@ h4 {
         padding: 1.88rem;
         gap: 3.13rem;
     }
+}
 
+
+/****************** Small devices (phones, less than 350px) *****************/
+
+@media (max-width: 350px) {
+
+    .item1, .item2, .item3, .item4  {
+        justify-content: center;
+    }
 }
