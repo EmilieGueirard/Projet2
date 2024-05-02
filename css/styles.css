@@ -51,14 +51,14 @@ h2 {
 }
 
 h3 {
-    font-size: var(--subtitle-font-size);
-    font-weight: var(--subtitle-font-weight);
+    font-size: var(--titlecard-font-size);
+    font-weight: var(--titlecard-font-weight);
     margin: 0;
 }
 
 h4 {
-    font-size: var(--titlecard-font-size);
-    font-weight: var(--titlecard-font-weight);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
     margin: 0;
 }
 
@@ -215,6 +215,11 @@ h4 {
     text-decoration: none;
 }
 
+.site-header-filters--title {
+    font-size: var(--subtitle-font-size);
+    font-weight: var(--subtitle-font-weight);
+}
+
 .site-header-filters--txt {
     font-size: var(--filter-font-size);
     font-weight: var(--filter-font-weight);
@@ -341,6 +346,8 @@ h4 {
 }
 
 .site-main-content-lodging--footer--link {
+    font-size: var(--subtitle-font-size);
+    font-weight: var(--subtitle-font-weight);
     margin-top: 1.88rem;   
 }
 
@@ -448,6 +455,11 @@ h4 {
     margin-top: 2.19rem;   
 }
 
+.site-footer--title {
+    font-size: var(--subtitle-font-size);
+    font-weight: var(--subtitle-font-weight);
+}
+
 .site-footer--cat {
     padding: 1.25rem;
     width: 100%;
@@ -469,6 +481,8 @@ h4 {
 
     .site-header-filters {
        max-width: 100%;
+       flex-direction: column;
+       align-items: flex-start;
      }
 
     .site-header-filters--content {
@@ -548,7 +562,7 @@ h4 {
 
 /****************** Small devices (phones, less than 768px) *****************/
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     
     body {
         padding: 0;
@@ -626,8 +640,6 @@ h4 {
 
     .site-header-filters {
         padding: 0 1.25rem;
-        flex-direction: column;
-        align-items: flex-start;
         max-width: 100%;
     }
 
