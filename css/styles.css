@@ -272,8 +272,15 @@ h4 {
     
 }
 
-.icon-info {
-    font-size: 24px;
+.fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    padding: 3px;
+    border-radius: 50px;
+    border: solid 1px var(--main-bg-color);
 }
 
 
