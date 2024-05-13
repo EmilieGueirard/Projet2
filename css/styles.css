@@ -772,7 +772,7 @@ h4 {
     }
 
     .site-footer--cat {
-        width: 100%;
+        width: auto;
         padding: 1.88rem;
         gap: 3.13rem;
     }
